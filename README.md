@@ -23,8 +23,7 @@ The analytics team is particularly interested in understanding what songs users 
 
 ### A diagram of how the data is modelled
 #### Type: Star Schema
-![Star Schema: Sparkify ERD](https://r766469c826263xjupyterllyjhwqkl.udacity-student-workspaces.com/files/sparkify%20ERD.jpg?_xsrf=2%7Ccd404434%7Ca3dea289257214f21433f91f323d1961%7C1569515462 "Sparkify's data model")
-
+![Star Schema: Sparkify ERD](https://github.com/timveph/dend-project2a-Data-Modeling-with-Postgres/blob/master/sparkify%20ERD.jpg)
 
 > Each key is captured as a varchar. As there is no requirement to do any aggregation on keys, the design team felt that varchar was suitable. 
 
@@ -123,7 +122,7 @@ With the star schema you can quickly and easily query the data for a variety of 
     
 **Output**
 
-![Query 1 Example](https://r766469c826263xjupyterllyjhwqkl.udacity-student-workspaces.com/files/query1example.JPG?_xsrf=2%7Ccd404434%7Ca3dea289257214f21433f91f323d1961%7C1569515462 "Query 1 Example")
+![Query 1 Example](https://github.com/timveph/dend-project2a-Data-Modeling-with-Postgres/blob/master/query1example.JPG "Query 1 Example")
 
 ---
 
@@ -140,4 +139,4 @@ With the star schema you can quickly and easily query the data for a variety of 
 
 **Output**
 
-![Query 2 Example](https://r766469c826263xjupyterllyjhwqkl.udacity-student-workspaces.com/files/query2example.JPG?_xsrf=2%7Ccd404434%7Ca3dea289257214f21433f91f323d1961%7C1569515462 "Query 2 Example")
+![Query 2 Example](https://github.com/timveph/dend-project2a-Data-Modeling-with-Postgres/blob/master/query2example.JPG "Query 2 Example")
